@@ -1,0 +1,53 @@
+body{
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/bd/9d/6b/bd9d6b4d7c297b5a6cfcbc2785d74e96.jpg');
+  background-repeat: no-repeat;
+}
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+h1{
+  color: white;
+}
+h4{
+  color: white;
+}
+li{
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+}
+span{
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+}
+p{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.question{
+  text-align: justify;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
